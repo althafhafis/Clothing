@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+
+input,
+textarea,
+select {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: #000;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Poppins", Arial;
+  font-weight: 500;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+/* hero style section starts */
+#hero {
+  /* height: 100vh; */
+  padding-bottom: 150px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+#hero header nav.middle a {
+  letter-spacing: 20px;
+  font-weight: 600;
+  font-size: 32px;
+}
+#hero header nav.right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+#hero header nav.right ul li {
+  margin-left: 8px;
+}
+#hero header nav.right ul li:first-child {
+  margin-left: 0;
+}
+#hero header nav.right ul li a {
+  position: relative;
+}
+#hero header nav.right ul li a img {
+  width: 100%;
+  display: block;
+}
+#hero header nav.right ul li a div.eight {
+  border-radius: 50%;
+  background: #e41d1d;
+  color: #fff;
+  text-align: center;
+  width: 23px;
+  position: absolute;
+  border: 2px solid #fff;
+  right: -5px;
+}
+#hero header nav.right ul li a div.eight span {
+  font-size: 12px;
+  display: block;
+}
+#hero header nav.right ul li a div.bag {
+  border-radius: 50%;
+  background: yellow;
+  color: #000;
+  text-align: center;
+  width: 23px;
+  position: absolute;
+  border: 2px solid #fff;
+  right: -5px;
+}
+#hero header nav.right ul li a div.bag span {
+  font-size: 12px;
+  display: block;
+  font-weight: 600;
+}
+/* spotlight section style starts */
+#hero #spotlight {
+  display: flex;
+  /* height: calc(100vh - 80px); */
+}
+#hero #spotlight section.left {
+  width: 60%;
+}
+#hero #spotlight section.left div.top {
+  width: 100%;
+}
+#hero #spotlight section.left div.top div.ul {
+  font-size: 12px;
+}
+#hero #spotlight section.left div.top div.ul ul li a {
+  font-size: 13px;
+}
+#hero #spotlight section.left div.top ul li:last-child a {
+  color: #777;
+}
+#hero #spotlight section.left div.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
+  position: relative;
+}
+#hero #spotlight section.left div.content {
+  width: 70%;
+}
+#hero #spotlight section.left div.content h4 {
+  font-size: 32px;
+  font-weight: 600;
+}
+#hero #spotlight section.left div.content p {
+  color: #777;
+  margin-bottom: 20px;
+}
+#hero #spotlight section.left div.content a.button {
+  padding: 17px 35px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#hero #spotlight section.left div.bottom ul.line {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  position: absolute;
+  left: 129px;
+  bottom: -50px;
+}
+#hero #spotlight section.left div.bottom ul.line li:first-child hr.line {
+  border: 1px solid #e41d1d;
+  width: 70px;
+}
+#hero #spotlight section.left div.bottom ul.line li hr.line {
+  border: 1px solid #000;
+  width: 40px;
+}
+#hero #spotlight section.left div.bottom div.arrow {
+  display: flex;
+  position: absolute;
+  right: -100px;
+  bottom: -47px;
+}
+#hero #spotlight section.left div.bottom div.arrow a {
+  border: 0.01px solid #d3d3d3;
+  padding: 10px 12px;
+}
+#hero #spotlight section.left div.bottom div.arrow a:first-child img {
+  transform: rotate(180deg);
+}
+#hero #spotlight section.right {
+  width: 60%;
+}
+#hero #spotlight section.right div.imgcontainer {
+  display: inline-block;
+  width: 100%;
+}
+#hero #spotlight section.right div.imgcontainer img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+#hero #spotlight section.right div.content {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero #spotlight section.right div.content small {
+  color: #777;
+  display: inline-block;
+  width: 75%;
+  font-size: 12px;
+}
+#hero #spotlight section.right div.content span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bolder;
+}
+#hero #spotlight section.right div.content span a {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+#hero #spotlight section.right div.content span a img {
+  width: 10%;
+  display: block;
+}
+/* hero section style ends */
+/* product section style starts */
+#products {
+  background: url(../images/Bg-lines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#products section.wrapper div.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#products section.wrapper div.head h4 {
+  font-weight: 600;
+  max-width: 45%;
+  font-size: 32px;
+}
+
+#products section.wrapper div.head a.button {
+  font-weight: 600;
+  background: #fff;
+}
+
+#products section.wrapper div.head a.button img {
+  width: 15%;
+}
+
+#products section.wrapper div.tail ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#products section.wrapper div.tail ul li {
+  width: 17%;
+}
+#products section.wrapper div.tail ul li:first-child {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(2) {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(2) {
+  margin-top: 150px;
+  width: 4%;
+}
+#products section.wrapper div.tail ul li:nth-child(2) a {
+  width: 25%;
+}
+#products section.wrapper div.tail ul li:nth-child(2) a img {
+  width: 100%;
+  transform: rotate(180deg);
+}
+#products section.wrapper div.tail ul li:nth-child(4) {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(5) {
+  position: relative;
+}
+#products section.wrapper div.tail ul li:nth-child(5) div.sale {
+  background: #e41d1d;
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  bottom: 232px;
+  padding: 8px;
+}
+#products section.wrapper div.tail ul li:nth-child(6) {
+  margin-top: 150px;
+  width: 5%;
+}
+#products section.wrapper div.tail ul li:nth-child(6) a {
+  display: inline-block;
+  width: 80%;
+  margin-left: 30%;
+}
+#products section.wrapper div.tail ul li:nth-child(6) a img {
+  width: 100%;
+}
+#products section.wrapper div.tail ul li:last-child {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li .photo img {
+  width: 100%;
+}
+#products .wrapper .tail ul li a h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+#products section.wrapper div.tail ul li a small {
+  color: #777;
+  width: 20%;
+  background: #fff;
+}
+#products .wrapper .tail ul li a h4 {
+  font-weight: 600;
+}
+/* product section style ends */
+/* article section style start */
+#article {
+  padding-top: 100px;
+}
+#article section.wrapper {
+  display: flex;
+}
+#article section.wrapper div.left {
+  position: relative;
+}
+#article section.wrapper div.left div.pic {
+  width: 100%;
+}
+#article section.wrapper div.left div.pic img {
+  width: 100%;
+}
+#article section.wrapper div.left div.description {
+  background: #000;
+  position: absolute;
+  padding: 30px 0 30px 30px;
+  width: 75%;
+  bottom: 8px;
+}
+#article section.wrapper div.left div.description h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #777;
+}
+#article section.wrapper div.left div.description p {
+  color: #fff;
+  font-size: 24px;
+}
+#article section.wrapper div.left div.description span a {
+  color: #777;
+  font-weight: 600;
+}
+#article section.wrapper div.left div.description span a img {
+  width: 15px;
+}
+#article section.wrapper div.right {
+  position: relative;
+}
+#article section.wrapper div.right div.pic {
+  width: 100%;
+}
+#article section.wrapper div.right div.pic img {
+  width: 100%;
+}
+#article section.wrapper div.right div.description {
+  background: #e9dbb4;
+  position: absolute;
+  padding: 30px 30px 30px 30px;
+  width: 75%;
+  top: 0;
+  right: 0;
+}
+#article section.wrapper div.right div.description h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #777;
+}
+#article section.wrapper div.right div.description p {
+  color: #747474;
+  font-size: 24px;
+  font-weight: 600;
+}
+#article section.wrapper div.right div.description span a {
+  color: #777;
+  font-weight: 600;
+}
+#article section.wrapper div.right div.description span a img {
+  width: 15px;
+}
+/* article section style ends */
+/* cloth section style starts*/
+#cloth {
+  padding: 200px 0;
+}
+#cloth section.wrapper div.head ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+#cloth section.wrapper div.head ul li {
+  font-weight: 600;
+  font-size: 40px;
+}
+#cloth section.wrapper div.head ul li:nth-child(even) {
+  border: 2px solid #777;
+  transform: rotate(90deg);
+  margin: 22px 0;
+}
+#cloth section.wrapper div.tail {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cloth section.wrapper div.tail div.pic {
+  width: 32%;
+  position: relative;
+}
+#cloth section.wrapper div.tail div.pic > img {
+  width: 100%;
+}
+#cloth section.wrapper div.tail div.pic.size > img {
+  height: 100%;
+}
+#cloth section.wrapper div.tail div.pic a {
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+}
+#cloth section.wrapper div.tail div.pic a img {
+  width: 100%;
+  display: block;
+}
+/* cloth section style ends */
+/* contact section style start */
+#contact section.wrapper div.top {
+  text-align: right;
+  margin-bottom: 50px;
+}
+#contact section.wrapper div.top a.button {
+  padding: 13px;
+  background: #000;
+  color: #fff;
+}
+#contact section.wrapper div.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#contact section.wrapper div.bottom ul li {
+  border: 0.3px solid #a6a6a6;
+  width: 32.5%;
+  padding: 50px 0 50px 15px;
+}
+#contact section.wrapper div.bottom ul li:hover {
+  border-bottom: 3px solid #000;
+}
+#contact section.wrapper div.bottom ul li h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+#contact section.wrapper div.bottom ul li span {
+  color: #777;
+  max-width: 75%;
+  display: block;
+  font-weight: 500;
+}
+/* contact section style ends */
+/* footer section style start */
+footer {
+  padding-top: 150px;
+}
+footer hr.line {
+  border: 0.1px solid #d3d3d3;
+}
+footer section.wrapper div.head {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+footer section.wrapper div.head div.left {
+  width: 45%;
+}
+footer section.wrapper div.head div.left h4 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 20px;
+  margin-bottom: 30px;
+}
+footer section.wrapper div.head div.left p {
+  width: 300px;
+}
+footer section.wrapper div.head div.right {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+footer section.wrapper div.head div.right div.list h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+footer section.wrapper div.head div.right div.list ul li {
+  margin-bottom: 15px;
+}
+footer section.wrapper div.head div.right div.list div.social {
+  margin-top: 30px;
+}
+footer section.wrapper div.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+footer section.wrapper div.bottom div.last {
+  width: 20%;
+}
+footer section.wrapper div.bottom div.last ul {
+  display: flex;
+  justify-content: space-between;
+}
+/* footer section style ends */

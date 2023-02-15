@@ -1,0 +1,756 @@
+@media all and (max-width:1280px) {
+    #hero #spotlight section.left div.content h4 {
+        font-size: 22px;
+    }
+
+    #hero #spotlight section.left div.content p {
+        font-size: 11px;
+    }
+
+    #hero #spotlight section.left div.content a.button {
+        padding: 10px 20px;
+
+    }
+
+    #hero #spotlight section.left div.bottom ul.line {
+        left: 100px;
+    }
+
+    #hero #spotlight section.left div.bottom ul.line {
+        width: 50%;
+    }
+
+    #hero #spotlight section.left div.bottom div.arrow {
+        right: -80px;
+        bottom: -20px;
+    }
+
+    #hero #spotlight section.right div.content small {
+        width: 80%;
+        font-size: 11px;
+    }
+
+    #hero #spotlight section.right div.content span {
+        font-size: 12px;
+    }
+
+    #hero #spotlight section.right div.content span a img {
+        width: 9%;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+        bottom: 258px;
+    }
+
+    #article section.wrapper div.left div.description {
+        padding: 20px 2px 20px 15px;
+    }
+
+    #article section.wrapper div.left div.description p {
+        font-size: 18px;
+    }
+
+    #article section.wrapper div.left div.description span a img {
+        width: 10px;
+    }
+
+    #article section.wrapper div.right div.description {
+        padding: 20px 0 20px 15px;
+    }
+
+    #article section.wrapper div.right div.description p {
+        font-size: 18px;
+    }
+
+    #article section.wrapper div.right div.description span a img {
+        width: 10px;
+    }
+}
+
+@media all and (max-width:1080px) {
+    #hero #spotlight section.left div.top div.ul {
+        font-size: 5px;
+    }
+
+    #hero #spotlight section.left div.top div.ul ul li a {
+        font-size: 11px;
+    }
+
+    #hero #spotlight section.left div.bottom div.arrow a {
+        padding: 7px 7px;
+    }
+
+    #hero #spotlight section.left div.bottom div.arrow {
+        right: -75px;
+        bottom: -35px;
+    }
+
+    #cloth section.wrapper div.head ul li {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    #cloth section.wrapper div.head ul li:nth-child(even) {
+        margin: 15px 0;
+    }
+
+    #contact section.wrapper div.bottom ul li span {
+
+        max-width: 80%;
+    }
+
+    footer section.wrapper div.head div.right {
+        width: 60%;
+    }
+
+    footer section.wrapper div.bottom div.last {
+        width: 25%;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #hero {
+        padding-bottom: 80px;
+    }
+
+    #hero #spotlight section.left div.top {
+        display: none;
+    }
+
+    #hero #spotlight section.left div.bottom ul.line {
+        width: 22%;
+        left: 2px;
+        bottom: -42px;
+
+    }
+
+    #hero #spotlight section.left div.bottom ul.line li:first-child hr.line {
+        width: 30px;
+    }
+
+    #hero #spotlight section.left div.bottom ul.line li hr.line {
+        width: 20px;
+        margin-left: 3px;
+    }
+
+    #hero #spotlight section.left div.bottom {
+        padding-top: 50px;
+    }
+
+    #hero #spotlight section.left div.bottom div.arrow {
+        right: 8px;
+        bottom: -45px;
+    }
+
+    #hero #spotlight section.left div.bottom div.content {
+        width: 100%;
+    }
+
+    #hero #spotlight section.left div.bottom {
+        width: 100%;
+    }
+
+    #hero #spotlight section.left div.content h4 {
+        font-size: 33px;
+    }
+
+    #hero #spotlight section.left div.content p {
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    #hero #spotlight section.right div.content small {
+        display: none;
+    }
+
+    #products section.wrapper div.head h4 {
+        max-width: 70%;
+        font-size: 26px;
+    }
+
+    #products section.wrapper div.head a.button {
+        font-size: 15px;
+    }
+
+    #products section.wrapper div.head a.button img {
+        width: 13%;
+    }
+
+    #article section.wrapper div.left div.description {
+        padding: 11px 8px 12px 9px;
+    }
+
+    #article section.wrapper div.left div.description h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+
+    }
+
+    #article section.wrapper div.left div.description p {
+        font-size: 15px;
+    }
+
+    #article section.wrapper div.right div.description span a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #article section.wrapper div.right div.description h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+
+    }
+
+    #article section.wrapper div.right div.description p {
+        font-size: 15px;
+    }
+
+    #article section.wrapper div.right div.description span a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #contact section.wrapper div.bottom ul li {
+        border: 0.3px solid #a6a6a6;
+        width: 32.5%;
+        padding: 30px 0 30px 15px;
+    }
+
+    #contact section.wrapper div.bottom ul li h5 {
+        margin-bottom: 10px;
+    }
+
+    #contact section.wrapper div.bottom ul li span {
+        font-size: 14px;
+        max-width: 85%;
+    }
+
+    #cloth {
+        padding: 100px 0;
+    }
+
+    footer {
+        padding-top: 100px;
+    }
+
+    footer section.wrapper div.head {
+        padding-top: 70px;
+    }
+
+    footer section.wrapper div.head {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    footer section.wrapper div.head div.left {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    footer section.wrapper div.head div.left p {
+        width: 100%;
+    }
+
+    footer section.wrapper div.head div.right {
+        width: 100%;
+    }
+
+    footer section.wrapper div.head div.right div.list ul li a img {
+        width: 8%;
+    }
+
+    footer section.wrapper div.head div.right div.list ul li a {
+        font-size: 14px;
+    }
+
+    footer section.wrapper div.head div.right div.list ul li {
+        margin-bottom: 0;
+    }
+
+    footer section.wrapper div.bottom div.first span {
+        font-size: 14px;
+    }
+
+    footer section.wrapper div.bottom div.last {
+        width: 30%;
+    }
+
+    footer section.wrapper div.bottom div.last ul li a {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #hero header nav.middle a {
+        letter-spacing: 10px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    #hero #spotlight section.left div.bottom {
+        padding-top: 10px;
+    }
+
+    #hero #spotlight section.left div.content h4 {
+        font-size: 30px;
+    }
+
+    #hero #spotlight section.left div.content p {
+        font-size: 13px;
+        max-width: 86%;
+    }
+
+    #hero #spotlight section.left div.bottom ul.line {
+        display: none;
+    }
+
+    #hero #spotlight section.left div.bottom div.arrow {
+        display: none;
+    }
+
+    #hero {
+        padding-bottom: 80px;
+    }
+
+    #hero header nav.right ul {
+        width: 75%;
+    }
+
+    #hero header nav.right ul li a div.eight {
+        width: 20px;
+    }
+
+    #hero header nav.right ul li a div.bag span {
+        font-size: 10px;
+    }
+
+    #hero header nav.right ul li a div.bag {
+        width: 20px;
+    }
+
+    #hero header nav.right ul li a div.eight span {
+        font-size: 10px;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(2) {
+        display: none;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(6) {
+        display: none;
+    }
+
+    #products section.wrapper div.tail ul li a small {
+        display: none;
+    }
+
+    #products .wrapper .tail ul li a h5 {
+        font-size: 12px;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+        padding: 3px;
+        bottom: 201px;
+    }
+
+    #article section.wrapper div.right div.description {
+        padding: 18px 0 18px 15px;
+    }
+
+    #article section.wrapper div.left div.description p {
+        font-size: 12px;
+    }
+
+    #article section.wrapper div.left div.description span a {
+        font-size: 12px;
+    }
+
+    #article section.wrapper div.right div.description p {
+        font-size: 12px;
+    }
+
+    #article section.wrapper div.right div.description span a {
+        font-size: 12px;
+    }
+
+    #contact section.wrapper div.top {
+        text-align: center;
+    }
+
+    #contact section.wrapper div.top a.button {
+        font-size: 14px;
+    }
+
+    #cloth {
+        padding: 80px 0;
+    }
+
+    #cloth section.wrapper div.head ul li {
+        font-size: 25px;
+    }
+
+    #cloth section.wrapper div.head ul {
+        margin-bottom: 20px;
+    }
+
+    #cloth section.wrapper div.tail div.pic a {
+        width: 25%;
+    }
+
+    #contact section.wrapper div.top a.button {
+        padding: 8px;
+    }
+
+    footer {
+        padding-top: 80px;
+    }
+
+    footer section.wrapper div.head {
+        padding-top: 50px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #hero #spotlight section.left div.content h4 {
+        font-size: 24px;
+    }
+
+    #hero #spotlight section.left div.content p {
+        font-size: 12px;
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #hero #spotlight section.left div.content a.button {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    #products section.wrapper div.head a.button {
+        display: none;
+    }
+
+    #products section.wrapper div.head h4 {
+        max-width: 100%;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    #products {
+        background: none;
+    }
+
+    #products section.wrapper div.tail ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #products section.wrapper div.tail ul li {
+        width: 45%;
+    }
+
+    #products section.wrapper div.tail ul li:first-child {
+        margin-top: 0px;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(4) {
+        margin-top: 0px;
+    }
+
+    #products section.wrapper div.tail ul li:last-child {
+        margin-top: 0px;
+        display: none;
+    }
+
+    #products .wrapper .tail ul li a h5 {
+        font-size: 15px;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+        padding: 5px;
+        bottom: 78px;
+    }
+
+    #products section.wrapper div.tail ul li a small {
+        display: block;
+    }
+
+    #products section.wrapper div.tail ul li a small {
+        width: 210px;
+    }
+
+    #article section.wrapper div.left div.description {
+        padding: 6px 6px 0px 9px;
+    }
+
+    #article section.wrapper div.left div.description h6 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    #article section.wrapper div.left div.description p {
+        font-size: 9px;
+    }
+
+    #article section.wrapper div.left div.description span a {
+        font-size: 11px;
+    }
+
+    #article section.wrapper div.right div.description {
+        padding: 6px 6px 0px 9px;
+    }
+
+    #article section.wrapper div.right div.description h6 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    #article section.wrapper div.right div.description p {
+        font-size: 9px;
+    }
+
+    #article section.wrapper div.right div.description span a {
+        font-size: 11px;
+    }
+
+    #cloth section.wrapper div.head ul li {
+        font-size: 16px;
+    }
+
+    #cloth section.wrapper div.head ul li:nth-child(even) {
+        display: none;
+    }
+
+    #contact section.wrapper div.top a.button {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    #contact section.wrapper div.bottom ul li span {
+        font-size: 10px;
+    }
+
+    footer section.wrapper div.head div.right div.list ul li a {
+        font-size: 12px;
+    }
+
+    footer section.wrapper div.bottom div.first span {
+        font-size: 12px;
+    }
+
+    footer section.wrapper div.bottom div.last {
+        width: 37%;
+    }
+
+    footer section.wrapper div.bottom div.last ul li a {
+        font-size: 12px;
+    }
+
+    /* 480px Checkpoint starts */
+}
+
+@media all and (max-width: 480px) {
+    #hero header nav.right ul li:nth-child(2) {
+        display: none;
+    }
+
+    #hero header nav.right ul li:last-child {
+        display: none;
+    }
+
+    #hero header nav.middle a {
+        letter-spacing: 8px;
+    }
+
+    #hero #spotlight section.left div.content h4 {
+        font-size: 18px;
+        width: 150px;
+        margin-bottom: 3px;
+    }
+
+    #hero #spotlight section.left div.content p {
+        font-size: 10px;
+    }
+
+    #hero #spotlight section.left div.content a.button {
+        font-size: 8px;
+    }
+
+    #hero #spotlight section.right div.content span a {
+        display: none;
+    }
+
+    #hero {
+        padding-bottom: 40px;
+    }
+
+    #products section.wrapper div.head h4 {
+        font-size: 18px;
+    }
+
+    #products section.wrapper div.tail ul li a small {
+        width: 135px;
+        font-size: 9px;
+    }
+
+    #products .wrapper .tail ul li a h5 {
+        font-size: 12px;
+    }
+
+    #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+        padding: 5px;
+        bottom: 68px;
+    }
+
+    #article section.wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #article section.wrapper div.left div.description {
+        padding: 20px 8px 20px 15px;
+    }
+
+    #article section.wrapper div.left div.description p {
+        font-size: 12px;
+    }
+
+    #article section.wrapper div.right div.description {
+        padding: 15px 8px 15px 15px;
+    }
+
+    #article section.wrapper div.right div.description p {
+        font-size: 12px;
+    }
+
+    #contact section.wrapper div.bottom ul li h5 {
+        font-size: 12px;
+    }
+
+    #cloth {
+        padding: 40px 0;
+    }
+
+    #contact section.wrapper div.top a.button {
+
+        font-size: 9px;
+    }
+
+    footer section.wrapper div.head div.left h4 {
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: 15px;
+        margin-bottom: 10px;
+    }
+
+    footer section.wrapper div.head div.left p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer section.wrapper div.head div.right div.list h5 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    #hero header nav.middle a {
+        letter-spacing: 6px;
+        font-size: 18px;
+    }
+
+    #hero header nav.right ul {
+        width: 65%;
+    }
+
+    #hero #spotlight {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #hero #spotlight section.left div.content h4 {
+        text-align: center;
+    }
+
+    #hero #spotlight section.left div.bottom div.content a.button {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #hero #spotlight section.left div.bottom div.content p {
+        text-align: center;
+    }
+
+    #hero #spotlight section.right div.content {
+        margin-top: 0px;
+    }
+
+    #contact section.wrapper div.bottom ul {
+        flex-wrap: wrap;
+
+    }
+
+    #contact section.wrapper div.bottom ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact section.wrapper div.bottom ul li span {
+        margin-left: 10px;
+    }
+
+    footer section.wrapper div.head div.left h4 {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 13px;
+        margin-bottom: 10px;
+    }
+
+    footer section.wrapper div.head div.left p {
+        font-size: 12px;
+    }
+
+    footer section.wrapper div.head div.right div.list h5 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    footer section.wrapper div.head div.right div.list ul {
+        display: none
+    }
+
+    footer section.wrapper div.head div.right {
+        position: relative;
+    }
+
+    footer section.wrapper div.head div.right div.list div.social {
+        position: absolute;
+        left: 90px;
+    }
+
+    footer section.wrapper div.bottom {
+        margin: 75px 0 0px 0;
+    }
+
+    footer section.wrapper div.bottom div.first span {
+        font-size: 10px;
+    }
+
+    footer section.wrapper div.bottom div.last {
+        width: 44%;
+    }
+
+    footer section.wrapper div.bottom div.last ul li a {
+        font-size: 10px;
+    }
+
+
+
+
+}
